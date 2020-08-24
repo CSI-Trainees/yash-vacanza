@@ -1,0 +1,19 @@
+ $(".nav-btn").click(function(){
+        $(".nav-links").toggle();
+        if($('.top').css('transform')=='none'){
+        $(".top").css('transform','rotate(45deg)');
+        $(".top").css('top','20px');
+        }else{
+            $('.top').css('transform','none');
+            $(".top").css('top','15px');
+        }
+     if($('.bottom').css('transform')=='none'){
+        $(".bottom").css('transform','rotate(-45deg)');
+        $(".bottom").css('top','20px');
+        }else{
+            $('.bottom').css('transform','none');
+            $(".bottom").css('top','25px');
+        }
+        $('.middle').toggle();
+    }); 
+    
