@@ -140,6 +140,7 @@
               width: 80%;
               height: 310px;
               box-shadow: 3px 2px 6px 5px #888888;
+              margin-bottom: 40px;
           }
            .sec-img{
               clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -153,6 +154,7 @@
                   display: none;
               }
               .container{
+                  height: 280px;
                   background-image: url(images-20200823T122507Z-001/images/vintage.jpg);
                   background-size: cover;
               }
@@ -187,5 +189,28 @@
                   width: 60px;
                   height: 30px;
                   font-size: 50%;
+              }
+          }
+            .sec-btn:hover{
+              background-color: #004D40;
+              color: white;
+              cursor: pointer;
+              box-shadow: 1px 2px 3px #888888;
+          }
+          .sec-img2{
+              clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 50% 0%);
+               float: left;
+          }
+          @media (max-width:750px){
+              .sec-img2{
+                  display: none;
+              }
+              .cont2{
+                  background-image: url(images-20200823T122507Z-001/images/quiz.jpg);
+                  background-size: cover;
+              }
+              .cont3{
+                  background-image: url(images-20200823T122507Z-001/images/magic.jpg);
+                  background-size: cover;
               }
           }
