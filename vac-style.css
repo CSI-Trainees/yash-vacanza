@@ -128,8 +128,9 @@
 
 
           .container-wrap{
+              padding-bottom: 40px;
               background-color: #EDEDED;
-              height: 800px;
+              height: 100%;
               width: 100%;
           }
           .container{
@@ -214,3 +215,4 @@
                   background-size: cover;
               }
           }
+            
